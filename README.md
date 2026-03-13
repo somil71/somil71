@@ -1,139 +1,129 @@
-<h1 align="center">
-  Hi 👋, I'm Somil
-</h1>
+# Hi there, I'm Somil 👋
 
-<h3 align="center">
-🚀 Full Stack Developer | AI Enthusiast | BTech CSE Student
-</h3>
+<div align="center">
 
-<p align="center">
-Building industry-ready systems, full-stack platforms, and intelligent applications.
-</p>
+### 🚀 BTech Computer Science Student | Full Stack Developer | AI/ML Enthusiast
 
----
+*Building industry-ready skills through real-world projects*
 
-# 🚀 About Me
+[![GitHub followers](https://img.shields.io/github/followers/somil71?label=Follow&logo=github&style=for-the-badge)](https://github.com/somil71)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/somil)
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com)
 
-- 🎓 BTech Computer Science Student  
-- 💻 Focused on **Full Stack Development and AI Systems**  
-- 🌱 Currently mastering the **MERN Stack and System Design**  
-- 🧠 Exploring **Artificial Intelligence and Machine Learning**  
-- ⚡ Building real-world projects to become **industry-ready**
+</div>
 
 ---
 
-# 🧠 Currently Learning
+## 👨‍💻 About Me
 
-- MERN Stack Architecture  
-- Data Structures & Algorithms  
-- AI / Machine Learning Systems  
-- Scalable Backend Design  
-- Cloud Deployment
+I'm a 19-year-old computer science student from India passionate about creating scalable applications and intelligent systems. I combine strong fundamentals with practical experience in full-stack development, diving deep into AI/ML systems, and contributing to open-source. My goal is to build products that make a real impact.
+
+- 🎓 **Education:** BTech Computer Science Student | Age 19 | India
+- 💡 **Passionate About:** Full Stack Development, AI Systems, Scalable Architecture
+- 🔭 **Currently Learning:** MERN Stack, ML Systems, DSA, System Design
+- 🎯 **Goal:** Becoming a well-rounded full-stack engineer with AI expertise
 
 ---
 
-# 🛠️ Tech Stack
-
-### Languages
-![C](https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c)
-![C++](https://img.shields.io/badge/C++-blue?style=for-the-badge&logo=cplusplus)
-![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk)
-![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
-![Kotlin](https://img.shields.io/badge/Kotlin-purple?style=for-the-badge&logo=kotlin)
+## 🛠️ Tech Stack
 
 ### Frontend
-![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3)
-![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
-![Tailwind](https://img.shields.io/badge/Tailwind-blue?style=for-the-badge&logo=tailwindcss)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### Backend
-![NodeJS](https://img.shields.io/badge/NodeJS-green?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express-grey?style=for-the-badge&logo=express)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-green?style=for-the-badge&logo=mongodb)
-![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
-![Firebase](https://img.shields.io/badge/Firebase-yellow?style=for-the-badge&logo=firebase)
+### Databases & Cloud
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
-![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazonaws)
-![Figma](https://img.shields.io/badge/Figma-purple?style=for-the-badge&logo=figma)
+### Programming Languages
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
-### AI / ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?style=for-the-badge&logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-red?style=for-the-badge&logo=pytorch)
-
----
-
-# 📌 Featured Projects
-
-### 🤖 AI Auditor
-AI governance and auditing system designed to analyze AI models for bias, compliance, and reliability.
-
-### 🧠 AI Vault
-Platform for managing and organizing AI models, datasets, and tools efficiently.
-
-### 📄 Resume Analysis System
-AI-powered system that analyzes resumes and extracts meaningful insights for recruitment.
-
-### 💡 Innoveda
-Full-stack application platform designed for scalable web solutions.
+### AI/ML & Tools
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-# 📊 GitHub Stats
+## 🎯 Current Learning Focus
 
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight"/>
-
-</p>
+- 🚀 **MERN Stack Mastery** - Building production-grade full-stack applications
+- 🤖 **AI/ML Systems** - Deep learning with TensorFlow and PyTorch
+- 🧩 **Data Structures & Algorithms** - Mastering DSA for optimal solutions
+- 🏗️ **System Design Fundamentals** - Designing scalable, fault-tolerant systems
 
 ---
 
-# 🔥 GitHub Streak
+## 💼 Featured Projects
 
-<p align="center">
+### 🔐 [AI Auditor](https://github.com/somil71/ai-auditor)
+AI governance and auditing system for enterprise compliance and monitoring
 
-<img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight"/>
+### 🏠 [AI Vault](https://github.com/somil71/ai-vault)
+Comprehensive AI resource management and orchestration platform
 
-</p>
+### 📄 [Resume Analysis System](https://github.com/somil71/resume-analysis-system)
+Intelligent resume screening tool powered by AI for recruitment automation
 
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=somil71&theme=tokyo-night"/>
-
-</p>
+### 🚀 [Innoveda](https://github.com/somil71/innoveda)
+Full-stack application platform with modern architecture and scalable design
 
 ---
 
-# 🌐 Connect With Me
+## 📊 GitHub Statistics
 
-📧 Email: your-email@example.com  
+<div align="center">
 
-📸 Instagram: https://instagram.com/somil_jha  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=somil71&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&text_color=ffffff)
 
-💼 LinkedIn: Add your LinkedIn profile here  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&text_color=ffffff)
 
----
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=somil71&theme=radical&hide_border=true&background=0d1117)](https://github.com/somil71)
 
-# ⚡ Fun Fact
-
-I enjoy building complex systems and learning how real-world software architectures work.
+</div>
 
 ---
 
-<p align="center">
-⭐ From <a href="https://github.com/somil71">somil71</a>
-</p>
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somil@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/somil)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/somil)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/somil)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://somil.dev)
+
+</div>
+
+---
+
+## ⚡ Fun Fact
+
+When I'm not coding, you'll find me exploring the intersection of AI and creativity, contributing to open-source projects, or writing about tech. I'm obsessed with clean code and believe that great software is built with both logic and passion! 🎨💻
+
+---
+
+<div align="center">
+
+**Let's collaborate and build something amazing together!** 🚀
+
+[![](https://img.shields.io/badge/Made_with_❤️_in-India-white?style=for-the-badge)](https://github.com/somil71)
+
+</div>
