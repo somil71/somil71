@@ -14,6 +14,13 @@
 
 ## What I've shipped
 
+### [PhishGuard-AI](https://github.com/somil71/PhishGuard-AI) — Intelligent Phishing URL Detection Using ML and Explainable Analytics
+Production-grade zero-day phishing detection platform combining LightGBM, XGBoost, and Random Forest in a soft-voting ensemble (99.92% accuracy, 1.0000 ROC-AUC). Extracts 34 structural, lexical, Shannon entropy, cryptographic, and typosquatting signals. Features real-time local explainability via SHAP TreeExplainer, discrete heuristic rules, and brand spoofing detection. Full Cyber SOC operations dashboard built in React + Tailwind with interactive SVG threat gauge, batch triage scanner, and FastAPI backend. 367 tests passing.
+
+`Python` `FastAPI` `LightGBM` `XGBoost` `scikit-learn` `SHAP` `React` `Tailwind` `Vite`
+
+---
+
 ### [Needle](https://github.com/somil71/NEEDLE) — Local-first code search engine
 Built entirely in Rust from scratch. Hybrid BM25 + HNSW vector search, hand-rolled (no Qdrant, no Tantivy). Tree-sitter AST chunking across 8 languages, live D3 call graph with community detection, MCP server with 11 tools. Ships as a native Tauri desktop app, VS Code extension, CLI, and cloud deployment with GitHub OAuth.
 
@@ -109,12 +116,12 @@ Rule-based data auditing system — upload two JSON snapshots, define rules (NON
 ## Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight"/>
+  <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D"/>
 </p>
 
 ---
