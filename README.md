@@ -1,34 +1,50 @@
-<h1 align="center">Somil Jha</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Somil%20Jha&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Systems%20Builder%20%E2%80%94%20Rust%20%C2%B7%20Python%20%C2%B7%20TypeScript&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
 
 <p align="center">
-  Systems builder. I write Rust, Python, and TypeScript — and I ship things that work.
+  <a href="https://komarev.com/ghpvc/?username=somil71">
+    <img src="https://komarev.com/ghpvc/?username=somil71&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+  </a>
+  &nbsp;
+  <a href="mailto:somilwork77@gmail.com">
+    <img src="https://img.shields.io/badge/somilwork77%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/somil-jha">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/somil_jha">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
 </p>
 
 <p align="center">
-  <a href="mailto:somilwork77@gmail.com">somilwork77@gmail.com</a> ·
-  <a href="https://linkedin.com/in/somil-jha">LinkedIn</a> ·
-  <a href="https://instagram.com/somil_jha">Instagram</a>
+  I build systems that work at the intersections of ML, distributed infrastructure, and developer tooling.<br/>
+  Comfortable at any layer of the stack — from hand-rolled HNSW indices to production Kubernetes deployments.
 </p>
 
 ---
 
-## What I've shipped
+## ⚡ What I've Shipped
 
-### [PhishGuard-AI](https://github.com/somil71/PhishGuard-AI) — Intelligent Phishing URL Detection Using ML and Explainable Analytics
-Production-grade zero-day phishing detection platform combining LightGBM, XGBoost, and Random Forest in a soft-voting ensemble (99.92% accuracy, 1.0000 ROC-AUC). Extracts 34 structural, lexical, Shannon entropy, cryptographic, and typosquatting signals. Features real-time local explainability via SHAP TreeExplainer, discrete heuristic rules, and brand spoofing detection. Full Cyber SOC operations dashboard built in React + Tailwind with interactive SVG threat gauge, batch triage scanner, and FastAPI backend. 367 tests passing.
+### 🛡️ [PhishGuard-AI](https://github.com/somil71/PhishGuard-AI) — Intelligent Phishing URL Detection Using ML and Explainable Analytics
+
+Production-grade zero-day phishing detection platform combining LightGBM, XGBoost, and Random Forest in a soft-voting ensemble (**99.92% accuracy, 1.0000 ROC-AUC**). Extracts 34 structural, lexical, Shannon entropy, cryptographic, and typosquatting signals. Features real-time local explainability via SHAP TreeExplainer, discrete heuristic rules, and brand spoofing detection. Full Cyber SOC operations dashboard built in React + Tailwind with interactive SVG threat gauge, batch triage scanner, and FastAPI backend. 367 tests passing.
 
 `Python` `FastAPI` `LightGBM` `XGBoost` `scikit-learn` `SHAP` `React` `Tailwind` `Vite`
 
 ---
 
-### [Needle](https://github.com/somil71/NEEDLE) — Local-first code search engine
+### 🔍 [Needle](https://github.com/somil71/NEEDLE) — Local-first Code Search Engine
+
 Built entirely in Rust from scratch. Hybrid BM25 + HNSW vector search, hand-rolled (no Qdrant, no Tantivy). Tree-sitter AST chunking across 8 languages, live D3 call graph with community detection, MCP server with 11 tools. Ships as a native Tauri desktop app, VS Code extension, CLI, and cloud deployment with GitHub OAuth.
 
 `Rust` `Axum` `Tauri` `Tree-sitter` `HNSW` `BM25` `MCP`
 
 ---
 
-### GenMol — AI Molecular Generation Platform
+### 🧬 GenMol — AI Molecular Generation Platform
+
 Full replication of *Lee et al. 2025 (arXiv:2501.06158)* — a Masked Diffusion Language Model over SMILES sequences with transformer-encoder denoiser, monotonic noise schedule, and iterative demasking inference. Includes a 3-layer hallucination guard (RDKit + perplexity + sliding window) with automatic checkpoint rollback, and a nightly self-improvement loop that retrains on high-quality production molecules.
 
 Deployed as a microservices stack: React + Firebase Auth frontend, Node.js/Express gateway, Flask/PyTorch ML service, Supabase (PostgreSQL) data layer, Kubernetes HPA for auto-scaling.
@@ -37,49 +53,55 @@ Deployed as a microservices stack: React + Firebase Auth frontend, Node.js/Expre
 
 ---
 
-### FairPay — Decentralized Freelancer Escrow Protocol
+### ⚖️ FairPay — Decentralized Freelancer Escrow Protocol
+
 Production-grade multi-milestone escrow on EVM (Sepolia). Funds lock at contract creation; milestones release via signatures, GitHub commit hashes, or IPFS CIDs — with automatic 48-hour default release if the client goes silent. Partial disputes let clients contest exactly the portion they disagree with. Soulbound reputation NFTs on completion; stake-based arbitration to punish bad-faith disputes.
 
 `Solidity` `Next.js` `wagmi` `Prisma` `Neon Postgres` `BullMQ` `Docker` `Kubernetes`
 
 ---
 
-### Job-Search Multi-Agent System
-14-agent autonomous pipeline: discovers jobs across 15+ boards, scores fit against your resume, tailors the resume (A3) and validates it (A4) in a bounded feedback loop, generates a per-job apply kit, monitors your Gmail inbox for replies, classifies emails (rejection / interview / assessment / offer), schedules .ics calendar invites, tracks assessment deadlines, sends follow-ups after 3-4 days of silence, and produces weekly diagnostics reports. Claude optional; runs fully offline by default.
+### 🤖 Job-Search Multi-Agent System
+
+14-agent autonomous pipeline: discovers jobs across 15+ boards, scores fit against your resume, tailors the resume (A3) and validates it (A4) in a bounded feedback loop, generates a per-job apply kit, monitors your Gmail inbox for replies, classifies emails (rejection / interview / assessment / offer), schedules `.ics` calendar invites, tracks assessment deadlines, sends follow-ups after 3-4 days of silence, and produces weekly diagnostics reports. Claude optional; runs fully offline by default.
 
 `Python` `FastAPI` `Playwright` `Gmail API` `SQLite` `Claude API`
 
 ---
 
-### BSES Delhi AI Chatbot — Multilingual Electricity Service Assistant
+### 💬 BSES Delhi AI Chatbot — Multilingual Electricity Service Assistant
+
 Production-ready multi-tenant chatbot replacing a Yellow.ai subscription. A scikit-learn TF-IDF + LinearSVC classifier trained on ~36,000 labelled examples handles English, Hindi (Devanagari), and Hinglish (Latin-script) in a single model — ~1ms inference, no GPU. Three routing layers: L1 (BSES API calls), L2 (static knowledge base), L3 (Groq Llama 3.1 synthesis). Gemini Vision reads uploaded bill photos and extracts structured data. Redis caching, JWT multi-tenant sessions, per-site rate limiting. 387 tests, all passing.
 
 `FastAPI` `scikit-learn` `Redis` `SQLite` `Groq` `Gemini` `Docker`
 
 ---
 
-### Decision Intelligence Platform
+### 📊 Decision Intelligence Platform
+
 End-to-end decision capture and drift monitoring. Slack-style chat UI where teams log decisions; a FastAPI AI microservice (GPT-4o-mini) extracts structured data and auto-generates tasks. A cron job re-evaluates decisions for drift and flags at-risk items. Circuit-breaker + retry logic throughout.
 
 `React` `Express` `FastAPI` `MongoDB` `Redis` `Docker`
 
 ---
 
-### FITBOARD — Shoppable Editorial Lookbook
+### 👗 FITBOARD — Shoppable Editorial Lookbook
+
 Dark-luxury fashion platform where every outfit is a clickable product map. Admins pin individual garments on photos with exact pixel coordinates; each pin links to a tracked affiliate redirect. Infinite-scroll masonry feed, Framer Motion spring-physics pin reveals, SVG connector lines from cards to hotspots, Supabase RLS, Upstash Redis rate-limiting on click events.
 
 `Next.js` `Supabase` `Framer Motion` `Zustand` `React Query` `TanStack`
 
 ---
 
-### AI Consistency Auditor
+### 🔎 AI Consistency Auditor
+
 Rule-based data auditing system — upload two JSON snapshots, define rules (NON_DECREASING, IMMUTABLE, NON_NULL), run an audit to detect violations with severity classification and plain-English explanations. No ML — deterministic rule engine, full audit trail, Docker deployment.
 
 `FastAPI` `React` `MongoDB` `Docker`
 
 ---
 
-## Stack
+## 🧰 Stack
 
 ### Languages
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
@@ -104,6 +126,8 @@ Rule-based data auditing system — upload two JSON snapshots, define rules (NON
 ### AI / ML
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=for-the-badge)
 
 ### Infrastructure
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -113,17 +137,30 @@ Rule-based data auditing system — upload two JSON snapshots, define rules (NON
 
 ---
 
-## Stats
+## 🏆 Trophies
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=somil71&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" alt="GitHub Trophies"/>
 </p>
 
 ---
 
-<p align="center">Open to client work · <a href="mailto:somilwork77@gmail.com">somilwork77@gmail.com</a></p>
+## 📈 Stats
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  &nbsp;
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight&langs_count=8"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=somil71&theme=react-dark&area=true&hide_border=true" alt="Activity Graph" width="95%"/>
+</p>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%"/>
