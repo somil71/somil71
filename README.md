@@ -137,14 +137,6 @@ Rule-based data auditing system — upload two JSON snapshots, define rules (NON
 
 ---
 
-## 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=somil71&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" alt="GitHub Trophies"/>
-</p>
-
----
-
 ## 📈 Stats
 
 <p align="center">
@@ -155,10 +147,6 @@ Rule-based data auditing system — upload two JSON snapshots, define rules (NON
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=somil71&theme=react-dark&area=true&hide_border=true" alt="Activity Graph" width="95%"/>
 </p>
 
 ---
