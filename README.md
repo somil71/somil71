@@ -1,246 +1,65 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=290&section=header&text=Somil%20Jha&fontSize=84&fontColor=ffffff&fontAlignY=38&desc=Systems%20Builder%20%E2%80%94%20Rust%20%C2%B7%20Python%20%C2%B7%20TypeScript&descSize=20&descAlignY=60&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=290&section=header&text=Somil%20Jha&fontSize=84&fontColor=ffffff&fontAlignY=38&desc=Systems%20Builder%20%E2%80%94%20Rust%20%C2%B7%20Python%20%C2%B7%20TypeScript&descSize=20&descAlignY=60&animation=twinkling" width="100%"/> <div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=820&lines=I+build+search+engines+from+scratch.;I+write+x86-64+emulators+to+catch+race+conditions.;I+train+models+that+explain+themselves.;I+ship+to+production%2C+not+just+to+localhost." alt="Typing intro"/> </a> <br/> <img src="https://img.shields.io/badge/%F0%9F%9F%A2_OPEN_TO-Remote_Winter_Internships_%26_Contract_Roles-00E676?style=for-the-badge&labelColor=0d1117"/>
 
-<div align="center">
+<br/><br/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=780&lines=I+build+search+engines+from+scratch.;I+train+models+that+explain+themselves.;I+ship+to+production%2C+not+just+to+localhost.;From+hand-rolled+HNSW+to+Kubernetes." alt="Typing intro"/>
-</a>
+<a href="mailto:somilwork77@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a> <a href="https://linkedin.com/in/somil-jha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://instagram.com/somil_jha"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a> <a href="https://komarev.com/ghpvc/?username=somil71"><img src="https://komarev.com/ghpvc/?username=somil71&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS"/></a>
+
+</div> <br/>
+rust
+let somil = Engineer {
+    studying:   "B.Tech CS (AI & ML) @ IILM University",
+    leading:    "GDG On Campus, a 40-member engineering team",
+    published:  "GenMol @ IEEE CHANDICON 2026",
+    obsessed_with: ["systems programming", "low-latency backends", "applied AI infrastructure"],
+    method:     "build it from first principles, then measure it",
+    languages:  ["Rust", "Python", "TypeScript", "C++", "Solidity"],
+    status:     Status::AlwaysShipping,
+};
+<br/> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Numbers%20I'm%20Proud%20Of&fontSize=30&fontColor=ffffff" width="100%"/> <br/> <table align="center"> <tr> <td align="center" width="25%"><h1>&lt;3 ms</h1><b>p50 query latency</b><br/><sub>Needle, hybrid BM25 + HNSW</sub></td> <td align="center" width="25%"><h1>97%</h1><b>recall@10</b><br/><sub>hand-rolled HNSW, M=16, ef=200</sub></td> <td align="center" width="25%"><h1>1.3M+</h1><b>events / sec</b><br/><sub>Crucible deterministic simulator</sub></td> <td align="center" width="25%"><h1>99.92%</h1><b>detection accuracy</b><br/><sub>PhishGuard-AI ensemble</sub></td> </tr> <tr> <td align="center"><h1>~1 ms</h1><b>intent inference</b><br/><sub>no GPU, trilingual</sub></td> <td align="center"><h1>−60%</h1><b>LLM token cost</b><br/><sub>BSES chatbot short-circuiting</sub></td> <td align="center"><h1>100%</h1><b>molecule novelty</b><br/><sub>GenMol on ZINC-250k</sub></td> <td align="center"><h1>387</h1><b>tests passing</b><br/><sub>security, load, cache stampede</sub></td> </tr> </table> <br/> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Featured%20Work&fontSize=30&fontColor=ffffff" width="100%"/> <br/> <table> <tr> <td valign="top"> <h3>🔥 Crucible</h3> <i>Reproduce any distributed-systems bug. Bit for bit. Every time.</i> <br/><br/> A deterministic simulation-testing platform for concurrent and distributed code, written in Rust across <b>8 workspace crates</b>. Four execution tiers: a native in-process SDK, a fuel-metered <b>WebAssembly</b> runtime (Wasmtime), a from-scratch <b>x86-64 user-mode emulator</b> with CoW snapshot forks, and a Linux syscall-intercepting virtual kernel with virtual futexes and sockets. <br/><br/> Adaptive schedulers (<b>PCT</b>, causal-priority, UCB1 bandit) hunt races. <b>WGL linearizability</b> and <b>Elle</b> cycle detection judge the results. A hierarchical delta debugger shrinks failures to 1-minimal fault sequences, and every finding ships as an <b>Ed25519-signed evidence bundle</b>. The scheduler is formally specified in <b>TLA+</b>, and a CI-enforced <code>CLAIMS.json</code> keeps every claim honest. <br/><br/> <img src="https://img.shields.io/badge/execution_tiers-4-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/throughput-1.3M+_events%2Fsec-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/checkers-WGL_%C2%B7_Elle_%C2%B7_vector_clocks-FF4081?style=flat-square"/> <img src="https://img.shields.io/badge/spec-TLA%2B-00E676?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=rust,wasm,linux,go&theme=dark"/> </td> </tr> </table> <table> <tr> <td width="50%" valign="top"> <h3>🛡️ <a href="https://github.com/somil71/PhishGuard-AI">PhishGuard-AI</a></h3> <i>Zero-day phishing detection that shows its work.</i> <br/><br/> LightGBM + XGBoost + Random Forest soft-voting ensemble over <b>34</b> structural, lexical, entropy, cryptographic and typosquatting signals. SHAP explains every verdict. Ships with a full Cyber SOC dashboard. <br/><br/> <img src="https://img.shields.io/badge/accuracy-99.92%25-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/ROC--AUC-1.0000-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/tests-367_passing-00E676?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=py,fastapi,react,tailwind,vite&theme=dark"/> </td> <td width="50%" valign="top"> <h3>🔍 <a href="https://github.com/somil71/NEEDLE">Needle</a></h3> <i>A local-first code search engine, built from nothing.</i> <br/><br/> Pure Rust. Hybrid <b>BM25 + HNSW</b> search fused with RRF, hand-rolled, with no Qdrant, Pinecone or Tantivy. Tree-sitter chunking across 8 languages, crash-safe WAL with two-phase commit, and an MCP server with 11 tools used by Claude Code, Cursor and Windsurf. Desktop app, VS Code extension, CLI and cloud. <br/><br/> <img src="https://img.shields.io/badge/p50-%3C3ms-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/recall%4010-97%25-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/MCP_tools-11-FF4081?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=rust,tauri,vscode,react&theme=dark"/> </td> </tr> <tr> <td width="50%" valign="top"> <h3>🧬 GenMol</h3> <i>A diffusion model that dreams up molecules.</i> <br/><br/> Full replication of <a href="https://arxiv.org/abs/2501.06158">Lee et al. 2025</a>: a masked diffusion language model over SMILES, trained on a single T4 GPU. A 3-layer hallucination guard (RDKit, perplexity, sliding window) with automatic checkpoint rollback, plus a nightly self-improvement loop. <br/><br/> <img src="https://img.shields.io/badge/IEEE-CHANDICON_2026-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/validity-79%25-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/novelty-100%25-00E676?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=pytorch,flask,react,nodejs,kubernetes,supabase&theme=dark"/> </td> <td width="50%" valign="top"> <h3>⚖️ FairPay</h3> <i>Freelancer escrow where nobody has to trust anybody.</i> <br/><br/> Multi-milestone escrow on EVM (Sepolia). Milestones release via signatures, GitHub commit hashes or IPFS CIDs. A 48-hour default release if the client goes silent, partial disputes, soulbound reputation NFTs and stake-based arbitration. <br/><br/> <img src="https://img.shields.io/badge/auto--release-48h-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/chain-Sepolia-7C4DFF?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=solidity,nextjs,prisma,postgres,docker,kubernetes&theme=dark"/> </td> </tr> <tr> <td width="50%" valign="top"> <h3>🤖 Job-Search Multi-Agent System</h3> <i>14 agents hunting jobs while you sleep.</i> <br/><br/> Discovers jobs across 15+ boards, scores fit, tailors and validates your resume in a bounded feedback loop, builds a per-job apply kit, then watches your Gmail, classifies replies, schedules <code>.ics</code> invites, sends follow-ups and writes weekly diagnostics. Idempotent, retry-safe, and fully offline by default. <br/><br/> <img src="https://img.shields.io/badge/agents-14-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/job_boards-15+-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/tests-66-00E676?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=py,fastapi,sqlite&theme=dark"/> </td> <td width="50%" valign="top"> <h3>💬 BSES Delhi AI Chatbot</h3> <i>One model. Three ways of speaking. No GPU.</i> <br/><br/> Replaced a Yellow.ai subscription. A TF-IDF + LinearSVC classifier understands <b>English, Hindi and Hinglish</b> in a single model and short-circuits 15 of 18 common intents before they ever reach the LLM. Three routing layers (BSES API, knowledge base, Groq Llama 3.1), Gemini Vision for bill photos, Redis caching and JWT multi-tenancy. <br/><br/> <img src="https://img.shields.io/badge/inference-~1ms-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/LLM_cost-%E2%88%9260%25-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/tests-387_passing-00E676?style=flat-square"/> <br/><br/> <img src="https://skillicons.dev/icons?i=py,fastapi,redis,sqlite,docker&theme=dark"/> </td> </tr> </table> <br/> <div align="center"><b>And more:</b></div> <br/> <table> <tr> <td width="33%" valign="top"> <h4>📊 Decision Intelligence</h4> <i>Log decisions. Catch them drifting.</i><br/><br/> Slack-style capture UI, a GPT-4o-mini microservice that extracts structure and creates tasks, and a cron job that flags at-risk decisions. <br/><br/> <img src="https://skillicons.dev/icons?i=react,express,fastapi,mongodb,redis&theme=dark"/> </td> <td width="33%" valign="top"> <h4>👗 FITBOARD</h4> <i>Every outfit is a clickable product map.</i><br/><br/> Dark-luxury lookbook with pixel-exact garment pins, tracked affiliate redirects, spring-physics reveals and Supabase RLS. <br/><br/> <img src="https://skillicons.dev/icons?i=nextjs,supabase,react,ts&theme=dark"/> </td> <td width="33%" valign="top"> <h4>🔎 AI Consistency Auditor</h4> <i>No ML. Just rules that never blink.</i><br/><br/> Diff two JSON snapshots against <code>NON_DECREASING</code>, <code>IMMUTABLE</code> and <code>NON_NULL</code> rules, with severity levels and plain-English explanations. <br/><br/> <img src="https://skillicons.dev/icons?i=fastapi,react,mongodb,docker&theme=dark"/> </td> </tr> </table> <br/> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Beyond%20The%20Code&fontSize=30&fontColor=ffffff" width="100%"/> <br/> <table align="center"> <tr> <td align="center" width="25%"><h1>40</h1><b>engineers led</b><br/><sub>GDG On Campus Lead, IILM University</sub></td> <td align="center" width="25%"><h1>6+</h1><b>workshops taught</b><br/><sub>AI and systems, 100+ participants</sub></td> <td align="center" width="25%"><h1>2×</h1><b>SIH internal winner</b><br/><sub>prototyped under 36-hour deadlines</sub></td> <td align="center" width="25%"><h1>🏛️</h1><b>AI Summit</b><br/><sub>represented IILM at Bharat Mandapam</sub></td> </tr> </table> <br/> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Full%20Tech%20Arsenal&fontSize=30&fontColor=ffffff" width="100%"/> <br/> <div align="center">
+
+🗣️ Languages<br/> <img src="https://skillicons.dev/icons?i=rust,py,ts,js,c,cpp,java,solidity,go,wasm&theme=dark"/><br/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
 
 <br/>
 
-<a href="mailto:somilwork77@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://linkedin.com/in/somil-jha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://instagram.com/somil_jha"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-<a href="https://komarev.com/ghpvc/?username=somil71"><img src="https://komarev.com/ghpvc/?username=somil71&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS"/></a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/99.92%25-PHISHING_DETECTION_ACCURACY-00E5FF?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/~1ms-CHATBOT_INFERENCE-7C4DFF?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/14-AUTONOMOUS_AGENTS-FF4081?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/387-TESTS_PASSING-00E676?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/36K-TRAINING_EXAMPLES-FFC400?style=flat-square&labelColor=0d1117"/>
-
-</div>
+🎨 Frontend<br/> <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,d3,framer&theme=dark"/>
 
 <br/>
 
-<table align="center">
-<tr>
-<td align="center" width="33%">
-<h3>🧠 Machine Learning</h3>
-Ensembles, diffusion models, explainability.<br/>
-Models that are accurate <i>and</i> can say why.
-</td>
-<td align="center" width="33%">
-<h3>⚙️ Systems</h3>
-Rust engines, microservices, Kubernetes.<br/>
-Built to survive real traffic.
-</td>
-<td align="center" width="33%">
-<h3>🛠️ Developer Tooling</h3>
-Search, MCP servers, agents, desktop apps.<br/>
-Tools other engineers actually reach for.
-</td>
-</tr>
-</table>
+⚙️ Backend & Distributed Systems<br/> <img src="https://skillicons.dev/icons?i=rust,fastapi,nodejs,express,flask&theme=dark"/><br/> <img src="https://img.shields.io/badge/Axum-000000?style=flat-square&logo=rust"/> <img src="https://img.shields.io/badge/Tokio-async_runtime-00E5FF?style=flat-square"/> <img src="https://img.shields.io/badge/WebSockets-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/REST_APIs-009688?style=flat-square"/> <img src="https://img.shields.io/badge/BullMQ-DC382D?style=flat-square"/> <img src="https://img.shields.io/badge/Gunicorn_%2B_Uvicorn-499848?style=flat-square"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Featured%20Work&fontSize=30&fontColor=ffffff" width="100%"/>
+🗄️ Data<br/> <img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,redis,supabase,firebase,prisma&theme=dark"/>
 
 <br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🛡️ <a href="https://github.com/somil71/PhishGuard-AI">PhishGuard-AI</a></h3>
-<i>Zero-day phishing detection that shows its work.</i>
-<br/><br/>
-LightGBM + XGBoost + Random Forest soft-voting ensemble over <b>34</b> structural, lexical, entropy, cryptographic and typosquatting signals. SHAP explains every verdict. Ships with a full Cyber SOC dashboard.
-<br/><br/>
-<img src="https://img.shields.io/badge/accuracy-99.92%25-00E5FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/ROC--AUC-1.0000-7C4DFF?style=flat-square"/>
-<img src="https://img.shields.io/badge/tests-367_passing-00E676?style=flat-square"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=py,fastapi,react,tailwind,vite&theme=dark"/>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🔍 <a href="https://github.com/somil71/NEEDLE">Needle</a></h3>
-<i>A local-first code search engine, built from nothing.</i>
-<br/><br/>
-Pure Rust. Hybrid <b>BM25 + HNSW</b> search, hand-rolled, with no Qdrant or Tantivy. Tree-sitter chunking across 8 languages, a live D3 call graph, and an MCP server with 11 tools. Desktop app, VS Code extension, CLI and cloud.
-<br/><br/>
-<img src="https://img.shields.io/badge/languages-8-00E5FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/MCP_tools-11-7C4DFF?style=flat-square"/>
-<img src="https://img.shields.io/badge/vector_db-hand--rolled-FF4081?style=flat-square"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=rust,tauri,vscode,react&theme=dark"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🧬 GenMol</h3>
-<i>A diffusion model that dreams up molecules.</i>
-<br/><br/>
-Full replication of <a href="https://arxiv.org/abs/2501.06158">Lee et al. 2025</a>: a masked diffusion language model over SMILES. A 3-layer hallucination guard (RDKit, perplexity, sliding window) with automatic checkpoint rollback, plus a nightly self-improvement loop.
-<br/><br/>
-<img src="https://img.shields.io/badge/guard_layers-3-00E5FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/deploy-Kubernetes_HPA-326CE5?style=flat-square"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=pytorch,flask,react,nodejs,kubernetes,supabase&theme=dark"/>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>⚖️ FairPay</h3>
-<i>Freelancer escrow where nobody has to trust anybody.</i>
-<br/><br/>
-Multi-milestone escrow on EVM (Sepolia). Milestones release via signatures, GitHub commit hashes or IPFS CIDs. A 48-hour default release if the client goes silent, partial disputes, soulbound reputation NFTs and stake-based arbitration.
-<br/><br/>
-<img src="https://img.shields.io/badge/auto--release-48h-00E5FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/chain-Sepolia-7C4DFF?style=flat-square"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=solidity,nextjs,prisma,postgres,docker,kubernetes&theme=dark"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🤖 Job-Search Multi-Agent System</h3>
-<i>14 agents hunting jobs while you sleep.</i>
-<br/><br/>
-Discovers jobs across 15+ boards, scores fit, tailors and validates your resume in a bounded feedback loop, builds a per-job apply kit, then watches your Gmail, classifies replies, schedules <code>.ics</code> invites, sends follow-ups and writes weekly diagnostics. Runs fully offline by default.
-<br/><br/>
-<img src="https://img.shields.io/badge/agents-14-00E5FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/job_boards-15+-7C4DFF?style=flat-square"/>
-<img src="https://img.shields.io/badge/mode-offline_by_default-00E676?style=flat-square"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=py,fastapi,sqlite&theme=dark"/>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>💬 BSES Delhi AI Chatbot</h3>
-<i>One model. Three ways of speaking. No GPU.</i>
-<br/><br/>
-Replaced a Yellow.ai subscription. A TF-IDF + LinearSVC classifier understands <b>English, Hindi and Hinglish</b> in a single model. Three routing layers (BSES API, knowledge base, Groq Llama 3.1), Gemini Vision for bill photos, Redis caching and JWT multi-tenancy.
-<br/><br/>
-<img src="https://img.shields.io/badge/inference-~1ms-00E5FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/training-~36K_examples-7C4DFF?style=flat-square"/>
-<img src="https://img.shields.io/badge/tests-387_passing-00E676?style=flat-square"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=py,fastapi,redis,sqlite,docker&theme=dark"/>
-
-</td>
-</tr>
-</table>
+🧠 AI / ML & LLMs<br/> <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark"/><br/> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logoColor=black"/> <img src="https://img.shields.io/badge/Masked_Diffusion-EE4C2C?style=flat-square"/> <img src="https://img.shields.io/badge/RAG-7C4DFF?style=flat-square"/> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square"/> <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/> <img src="https://img.shields.io/badge/XGBoost-189AB4?style=flat-square"/> <img src="https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square"/> <img src="https://img.shields.io/badge/RDKit-3A7CA5?style=flat-square"/> <img src="https://img.shields.io/badge/SAFE_Tokenization-00E5FF?style=flat-square"/><br/> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square"/> <img src="https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square"/>
 
 <br/>
 
-<div align="center"><b>And more:</b></div>
+🏗️ Infrastructure & DevOps<br/> <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,githubactions,linux,git&theme=dark"/>
 
 <br/>
 
-<table>
-<tr>
-<td width="33%" valign="top">
+⛓️ Web3<br/> <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white"/> <img src="https://img.shields.io/badge/wagmi-1C1B1B?style=flat-square"/> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white"/> <img src="https://img.shields.io/badge/Sepolia-7C4DFF?style=flat-square"/>
 
-<h4>📊 Decision Intelligence</h4>
-<i>Log decisions. Catch them drifting.</i><br/><br/>
-Slack-style capture UI, a GPT-4o-mini microservice that extracts structure and creates tasks, and a cron job that flags at-risk decisions.
+<br/>
+
+🛠️ Tooling<br/> <img src="https://skillicons.dev/icons?i=tauri,vscode,github&theme=dark"/>
+
+</div> <br/> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Under%20The%20Hood&fontSize=30&fontColor=ffffff" width="100%"/> <p align="center"><i>Things I've implemented by hand instead of importing.</i></p> <div align="center"> <img src="https://img.shields.io/badge/BM25_Inverted_Index-00E5FF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/HNSW_Vector_Graph-7C4DFF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Reciprocal_Rank_Fusion-FF4081?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Write--Ahead_Log-00E676?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Two--Phase_Commit-FFC400?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Tree--sitter_AST_Chunking-00E5FF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/xxHash3_Dedup-7C4DFF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/x86--64_Emulator-FF4081?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Virtual_Kernel_%2B_Futex-00E676?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/WGL_Linearizability_Checker-FFC400?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Elle_Cycle_Detection-00E5FF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Vector_Clocks-7C4DFF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/PCT_Scheduler-FF4081?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/UCB1_Bandit-00E676?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Delta_Debugging-FFC400?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Merkle_Transparency_Log-00E5FF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Ed25519_Evidence_Bundles-7C4DFF?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/TLA%2B_Formal_Spec-FF4081?style=flat-square&labelColor=0d1117"/> <img src="https://img.shields.io/badge/Sliding--Window_Rate_Limiter-00E676?style=flat-square&labelColor=0d1117"/>
+
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=react,express,fastapi,mongodb,redis&theme=dark"/>
 
-</td>
-<td width="33%" valign="top">
+<sub>Core CS foundations: Data Structures & Algorithms · Operating Systems · DBMS · System Design</sub>
 
-<h4>👗 FITBOARD</h4>
-<i>Every outfit is a clickable product map.</i><br/><br/>
-Dark-luxury lookbook with pixel-exact garment pins, tracked affiliate redirects, spring-physics reveals and Supabase RLS.
+</div> <br/> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=By%20The%20Numbers&fontSize=30&fontColor=ffffff" width="100%"/> <br/> <p align="center"> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/> &nbsp; <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight&langs_count=8&hide_border=true"/> </p> <p align="center"> <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=somil71&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="Contribution activity graph"/> </p> <br/> <div align="center">
+Got something hard that needs building?
+
+<sub>Open to remote winter internships and contract roles, with flexible hours that can overlap US EST/PST nights.</sub>
+
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=nextjs,supabase,react,ts&theme=dark"/>
 
-</td>
-<td width="33%" valign="top">
+<a href="mailto:somilwork77@gmail.com"><img src="https://img.shields.io/badge/Let's_talk-00E5FF?style=for-the-badge&logo=gmail&logoColor=black"/></a> <a href="https://linkedin.com/in/somil-jha"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
-<h4>🔎 AI Consistency Auditor</h4>
-<i>No ML. Just rules that never blink.</i><br/><br/>
-Diff two JSON snapshots against <code>NON_DECREASING</code>, <code>IMMUTABLE</code> and <code>NON_NULL</code> rules, with severity levels and plain-English explanations.
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=fastapi,react,mongodb,docker&theme=dark"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=Tech%20Arsenal&fontSize=30&fontColor=ffffff" width="100%"/>
-
-<br/>
-
-<div align="center">
-
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=rust,py,ts,js,solidity,cpp,java&theme=dark"/>
-
-<br/>
-
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite&theme=dark"/>
-
-<br/>
-
-**Backend**<br/>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,flask&theme=dark"/>
-
-<br/>
-
-**AI / ML**<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark"/> &nbsp;<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white"/> <img src="https://img.shields.io/badge/SHAP-FF6B6B?style=for-the-badge"/>
-
-<br/>
-
-**Infrastructure**<br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,redis&theme=dark"/>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,18&height=70&section=header&text=By%20The%20Numbers&fontSize=30&fontColor=ffffff" width="100%"/>
-
-<br/>
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=somil71&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  &nbsp;
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=somil71&layout=compact&theme=tokyonight&langs_count=8&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=somil71&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=somil71&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="Contribution activity graph"/>
-</p>
-
-<br/>
-
-<div align="center">
-
-### Got something hard that needs building?
-
-<a href="mailto:somilwork77@gmail.com"><img src="https://img.shields.io/badge/Let's_talk-00E5FF?style=for-the-badge&logo=gmail&logoColor=black"/></a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,18,14,12&height=150&section=footer" width="100%"/>
+</div> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,18,14,12&height=150&section=footer" width="100%"/>
